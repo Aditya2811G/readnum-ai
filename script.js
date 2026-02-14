@@ -1,15 +1,15 @@
- const GEMINI_API_KEY = "AIzaSyA7yz2vsoth5t0v7Nhcj4Uk6d29sJBH2cQ"; 
+ const GEMINI_API_KEY = "API_KEY"; 
 
         // PASTE YOUR FIREBASE CONFIG HERE
-        const firebaseConfig = {
-            apiKey: "AIzaSyDKJJbLsoezmkRCkeQSBZlnSp_ZHlsJcgo",
-            authDomain: "readnum-ai.firebaseapp.com",
-            projectId: "readnum-ai",
-            storageBucket: "readnum-ai.firebasestorage.app",
-            messagingSenderId: "30293900520",
-            appId: "1:30293900520:web:3fb6f25660fa0e81fd1d5d",
-            measurementId: "G-4N6V7P6GT0"
-            };
+ const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_BUCKET",
+  messagingSenderId: "YOUR_ID",
+  appId: "YOUR_APP_ID"
+ };
+
 
         // --- IMPORTS ---
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
@@ -314,4 +314,5 @@
             resultValue.style.display = 'none';
             resultLabel.style.display = 'none';
             fileInput.value = '';
+
         }
